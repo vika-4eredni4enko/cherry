@@ -1,0 +1,115 @@
+@media only screen and (max-width: 1200px) {
+	footer {
+		padding: 35px 50px 25px 50px;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	header {
+		padding: 20px 10px 20px 10px;
+	}
+
+	.inner-container {
+		top: 15px;
+    	left: 80px;
+	}
+
+	.sideLeft {
+		width: 30%;
+	}
+
+	.content {
+		width: 70%;
+	}
+
+	.footer-title, .footer-title-2, .footer-title-3 {
+		width: 200px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.search-form {
+    	float: left;
+	}
+
+	.header-logo {
+		margin-bottom: 15px;
+		margin-right: 40px;
+	}
+
+	.inner-container h3 {
+		display: none;
+	}
+
+	.inner-container p {
+		display: none;
+	}
+
+	.inner-container .text {
+		display: block;
+	}
+
+	.inner-container {
+	    top: 25px;
+	    left: 30px;
+	}
+
+	.menu a {
+		display: none;
+	}
+
+	.burger {
+		display: block;
+	}
+
+	.sideLeft {
+		float: none;
+		width: 100%;
+	}
+
+	.content {
+		width: 100%;
+		float: none;
+	}
+
+	footer {
+		padding: 35px 0px 25px 0px;
+		text-align: center;
+	}
+
+	.footer-item {
+		float: none;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.clock {
+		width: 255px;
+		display: inline-block;
+	}
+
+	.footer-title, .footer-title-2, .footer-title-3 {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.table {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.inner-container {
+	    top: 10px;
+	    left: 30px;
+	}
+
+	.header-logo {
+		width: 265px;
+	}
+
+	.img-container {
+		display: none;
+	}
+}
